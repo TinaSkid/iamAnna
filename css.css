@@ -280,7 +280,7 @@ header .block2 {
     .kontakt {
         width: 100%;
     }
-    #nazov {
+    header .nazov #nazov {
         font-size: 8rem;
     }
     header span {
