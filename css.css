@@ -271,6 +271,9 @@ header .block2 {
     header {
         width: 100%;
     }
+    body {
+        overflow-y: auto;
+    }
     .ktoSom {
         width: 100%;
     }
