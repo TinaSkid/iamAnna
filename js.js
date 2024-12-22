@@ -26,9 +26,9 @@ function zmenaCSS(x) {
         text.style.fontSize = '8rem';
     }, 5000);
     setTimeout(() => {
-      const text = document.getElementById('nazov');
-        text.style.fontSize = '8rem';
-    }, 5000);
+    const skrasli = document.getElementById('skrasli');
+      skrasli.style.background = '#02002e';
+  }, 6000);
   
     setTimeout(() => {
       document.getElementsByTagName('body')[0].style = 'overflow-y: auto;';
