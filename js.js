@@ -14,6 +14,11 @@
       text.style.fontSize = '6rem';
   }, 5000);
 }*/
+setTimeout(() => {
+    const skrasli = document.getElementById('skrasli');
+      skrasli.style.background = '#02002e';
+  }, 6000);
+
 function zmenaCSS(x) {
   if (x.matches) {
     setTimeout(() => {
@@ -25,10 +30,6 @@ function zmenaCSS(x) {
       const text = document.getElementById('nazov');
         text.style.fontSize = '8rem';
     }, 5000);
-    setTimeout(() => {
-    const skrasli = document.getElementById('skrasli');
-      skrasli.style.background = '#02002e';
-  }, 6000);
   
     setTimeout(() => {
       document.getElementsByTagName('body')[0].style = 'overflow-y: auto;';
