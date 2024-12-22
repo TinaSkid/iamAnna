@@ -25,10 +25,13 @@ function zmenaCSS(x) {
       const text = document.getElementById('nazov');
         text.style.fontSize = '8rem';
     }, 5000);
+    setTimeout(() => {
+      const text = document.getElementById('nazov');
+        text.style.fontSize = '8rem';
+    }, 5000);
   
     setTimeout(() => {
-      const skrasli = document.getElementById('skrasli');
-        skrasli.style.background = '#02002e';
+      document.getElementsByTagName('body')[0].style = 'overflow-y: auto;';
     }, 6000);
   }
 }
