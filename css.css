@@ -256,6 +256,18 @@ header .block2 {
     padding-bottom: 1rem;
     font-size: 1.8rem;
 }
+/* footer */
+footer {
+    width: 60%;
+    height: 30px;
+    background-color: #000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+footer span,a {
+    color: white;
+}
 /* ---------------------------- */
 @keyframes allA {
     0%{
